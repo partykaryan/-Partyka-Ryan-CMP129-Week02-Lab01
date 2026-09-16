@@ -7,9 +7,9 @@ public class CelsiusTable {
     
   for (int i = 0; i<21; i++){
     double convertedTemp = celsius(i);
-    System.out.println("The Temperature when it is " + i + " degrees Faranheit"); 
+    System.out.print("The Temperature when it is " + i + " degrees Faranheit "); 
     System.out.printf("is %.2f" ,convertedTemp);
-    System.out.println(" degrees Celsius");
+    System.out.print(" degrees Celsius");
     System.out.println();
    }//end of for loop
 

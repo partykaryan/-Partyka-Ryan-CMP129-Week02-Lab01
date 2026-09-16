@@ -11,14 +11,15 @@ public class KineticEnergy {
     double velocity; 
     double energy;
 
-    System.out.print("Enter the mass ==> ");
+    System.out.print("Enter the mass (kg) ==> ");
     mass = keyboard.nextDouble();
 
-    System.out.print("Enter the velocity ==>");
+    System.out.print("Enter the velocity (m/s) ==>");
     velocity = keyboard.nextDouble();
 
     energy = kineticEnergy(mass, velocity);
 
+    System.out.println();
     System.out.println("The Kinetic Energy of an Object of mass " + mass + " kilograms" +
     "\nand Velocity of " + velocity + " meters per second is " + energy);
 

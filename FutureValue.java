@@ -23,7 +23,7 @@ public class FutureValue {
     System.out.println();
     System.out.print("The future value of an account that has a starting principal of $" + presentValue +
      "\nwith a monthly interest rate of " + interestRate + " over " + months + " months ");
-     System.out.printf("is %.2f", finalValue);
+     System.out.printf("is $%.2f", finalValue);
 
 keyboard.close();
 }//end of main method
